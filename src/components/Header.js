@@ -1,14 +1,13 @@
 import trollface from "../images/TrollFace.png"
 
-const Header = () =>{
-    return(
-        <div className="header">
+export default function Header() {
+    return (
+        <header className="header">
             <img 
-                src={trollface} alt="" 
-                className="img_header"
+                src={trollface}
+                className="img_head"
             />
-            <h1 className="headerTitle">Meme-Generator</h1>
-        </div>
+            <h1 className="header_title">Meme Generator</h1>
+        </header>
     )
 }
-export default Header
